@@ -1,0 +1,89 @@
+.sidebar {
+  width: 36rem;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: none;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar.open {
+  display: block;
+}
+
+.sidebar.light {
+  background-color: white;
+  color: black;
+}
+
+.sidebar.dark {
+  background-color: #202832;
+  color: #c7c7c7;
+}
+
+.close-btn {
+  font-size: 30px;
+  margin-left: 34rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 18px;
+  color: inherit;
+}
+
+.profile-info p {
+  margin-top: 10px;
+  color: inherit;
+}
+
+.sidebar-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar-item i {
+  margin-right: 10px;
+}
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: -50px;
+}
+
+.toogle-main {
+  display: flex;
+  flex-direction: row;
+}
